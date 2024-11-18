@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Psychologue</title>
+        <link rel="stylesheet" type="text/css" href="css.css">
+
+
+        <script>
+            function scrollToSection(sectionId) {
+                var section = document.getElementById(sectionId);
+                if (section) {
+                    var headerHeight = document.querySelector('header').offsetHeight;
+                    var sectionPosition = section.offsetTop - headerHeight;
+                    window.scrollTo({ top: sectionPosition, behavior: 'smooth' });
+                }
+            }
+        </script>
+
+
+    </head>
+    <body>
+
+        <header>
+            <h1 >Karine Bastié Salvetat<br/>Psychologue Carcassonne</h1>
+            <center>
+                <button onclick="scrollToSection('accueil')"><h2>Accueil</h2></button>
+                <button onclick="scrollToSection('ma_specificite')"><h2>Spécificités</h2></button>
+                <button onclick="scrollToSection('les_consultations')"><h2>Consultations</h2></button>
+                <button onclick="scrollToSection('les_honoraires')"><h2>Honoraires</h2></button>
+                <button onclick="scrollToSection('cabinet')"><h2>Cabinet</h2></button>
+                <button onclick="scrollToSection('localisation')"><h2>Localisation</h2></button>
+            </center>
+        </header>
+
+
+        <article id="accueil">
+            <h1>Accueil</h1>
+            <section id="section">
+                <center>
+                    <h2>Karine BASTIÉ-SALVETAT</h2>
+                    <h3>Psychologue</h3>
+                    <p>Enfants - Adolescents - Adultes</p>
+                    <p>Thérapies - Guidance - Test de Q.I. </p>
+                    <h3>Consultations libérales sur Rdv</h3>
+                    <p>au 06.09.97.72.92</p>
+                    <p>ou 04.68.72.56.81</p>
+                    <a href="https://www.google.fr/maps/place/5+Bd+de+la+Pierre+Blanche,+11000+Carcassonne/@43.2218103,2.3417281,17z/data=!3m1!4b1!4m6!3m5!1s0x12ae2c2cf6144a1d:0x6620e90e710ee7c2!8m2!3d43.2218064!4d2.344303!16s%2Fg%2F11c16_vjdg?entry=ttu/" target="_blank">
+                    <h3>5 Boulevard de la Pierre Blanche<br/> 11000 Carcassonne</h3>
+                    </a>
+                </center>
+            </section>
+            <center><img src="image/carte.jpg" class="cabinet" alt="Menu"/></center>
+        </article>
+
+
+        <article id="ma_specificite">
+            <h1>Spécificités</h1>
+
+            <section id="section">
+                <p>Psychologue, diplômée D.E.S.S. "Psychologie de l'Enfance et de l'Adolescence", depuis 1997.</p>
+                <p> Mon numéro ADELI est le 11 930 0960, il protège de l'exercice illégal de la profession.</p>
+                <p>Mon métier est de vous aider dans l'analyse de situations, de problèmes que vous rencontrez. On échange ensemble autour des causes de votre mal être afin que je puisse vous guider, vous soutenir dans une perspective d'amélioration de votre situation.</p>
+                <h3>Installée en libéral depuis 1999, j'ai acquis de l’expérience :</h3>
+                <ul>
+                   <li> <p>Dans le domaine de l'enfance : évaluation, diagnostic, thérapie, test de Q.I. …</p></li>
+                    <li><p>Dans le domaine de l'adolescence, avec prise en compte de la particularité de cette période de transition physique, psychologique..., avec un soutien auprès du jeune mais aussi des conseils parentaux pour aider à gérer les crises familiales.</p></li>
+                    <li><p>Dans l'accompagnement à la parentalité pour guider, soutenir le parent dans sa relation éducative, du désir de grossesse jusqu'à l'envol de ce dernier hors du cocon familial.</p></li>
+                    <li><p>Dans le soutien auprès d'adultes qui doivent faire face à des périodes de crises : deuil, séparation, maladie, surmenage ou tout simplement parce qu'ils ont le désir de faire évoluer positivement leur quotidien.</p></li>
+                    <li><p>Dans le soutien auprès des personnes âgées mobiles qui doivent affronter la maladie et essentiellement le changement de repères quotidiens : deuil, maison de retraite, handicap du conjoint…</p></li>
+                </ul>
+                <p>Mon statut de psychologue me soumet au secret professionnel et vous permet de vous exprimer librement, spontanément dans une relation de confiance.</p>
+            </section>
+
+        </article>
+
+
+        <article id="les_consultations">
+            <h1>Consultations</h1>
+
+            <section id="section">
+                <h2>Les entretiens psychologiques :</h2>
+                <p>Décider de consulter est un engagement personnel.<br/>
+                Les entretiens sont des échanges individuels verbaux autour des problématiques rencontrées.<br/>
+                Pour les enfants des supports d'expression comme le jeu, le dessin, les puzzles, sont aussi proposés.<br/>
+                Un laps de temps en début ou fin de séance est réservé pour faire le point avec le parent.</p>
+                <h3>Des entretiens peuvent avoir lieu avec plusieurs membres de la famille :</h3>
+                <ul>
+                    <li><p>pour échanger avec le couple parental.</p></li>
+                    <li><p>pour échanger avec la fratrie.</p></li>
+                </ul>
+            </section>
+
+            <section id="section">
+                <h2>Le bilan intellectuel : Test de Q.I. (quotient intellectuel)</h2>
+                <h3>Le bilan intellectuel enfant consiste en la passation d'un test, le
+                <a href="https://fr.wikipedia.org/wiki/Wechsler_Intelligence_Scale_for_Children" target="_blank">
+                        "Wisc-V"
+                </a>  dont réalisation nécessite plusieurs séances :</h3>
+                <ul>
+                    <li><p>Une demi-heure d'échanges autour de la démarche d'évaluation de la présentation de la situation et de la passation d'un test projectif.</p></li>
+                    <li><p>Une heure trente de passation des épreuves du test en une seule fois.</p></li>
+                    <li><p>Une demi-heure de bilan oral avec la famille et restitution écrite des résultats obtenu.</p></li>
+                </ul>
+            </section>
+
+        </article>
+
+
+        <article id="les_honoraires">
+            <h1>Honoraires</h1>
+            <section id="section">
+                <h2>Tarification des séances :</h2>
+                <ul>
+                    <li>45 € la séance individuelle d'une demi-heure.</li>
+                    <li>250 € un test de Q.I. qui nécessite 2h30 (évaluation intellectuelle).</li>
+                </ul>
+                <p>Le règlement se fait à la fin de chaque séance par chèque ou en espèces.</p>
+            </section>
+
+            <section id="section">
+                <h2>Remboursement des séances :</h2>
+                <p>Les consultations ne sont pas remboursées par la sécurité sociale.</p>
+                <p>Certaines mutuelles prennent en charge une partie des consultations.</p>
+                <p>Renseignez-vous auprès de votre mutuelle et je vous délivrerai une facture à cet effet.</p> 
+            </section>
+
+        </article>
+
+
+        <article id="cabinet">
+            <h1>Cabinet</h1>
+            <img src="image/cabinet1.jpg" class="cabinet"/><img src="image/cabinet2.jpg" class="cabinet"/><img src="image/cabinet4.jpg" class="cabinet"/>
+            <img src="image/cabinet5.jpg" class="cabinet"/>
+            <center><img src="image/cabinet3.jpg" class="cabinet"/></center>
+        </article>
+
+
+        <article id="localisation">
+            <h1>Localisation</h1>
+            <a href="https://www.google.fr/maps/place/5+Bd+de+la+Pierre+Blanche,+11000+Carcassonne/@43.2218103,2.3417281,17z/data=!3m1!4b1!4m6!3m5!1s0x12ae2c2cf6144a1d:0x6620e90e710ee7c2!8m2!3d43.2218064!4d2.344303!16s%2Fg%2F11c16_vjdg?entry=ttu/" target="_blank">
+            <center><img src="image/localisation.jpg"/></center>
+            </a>
+        </article>
+
+
+        <footer>
+        </footer>
+    </body>
+</html>
